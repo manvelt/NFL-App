@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NFL Weekly Picker</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AngularJS -->
+    <script type="text/javascript" src="vendor/angular.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/games.css">
+  </head>
+
+  <body ng-app="NFLApp" ng-controller="gamesCtrl">
+
+    <div class="jumbotron text-center">
+      <h2>Select the winners of NFL Week 1</h2>
+      <div class="pull-right">
+        <p>Filter by Team</p>
+        <select ng-model="choice" ng-options="t.team for t in teams">
+          <option value="">-- Default All --</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="container">
+
+
+
+
+
+
+      <!-- GAMES -->
+      <div class="row is-flex" ng-repeat="game in games">
+        <div class="col-xs-12 col-sm-6 col-md-6" style="background-color:white; margin-bottom: 5px; padding-bottom: 20px;">
+          <h3>Game {{game.gameNum}}</h3>
+          <div class="text-center">
+            <button class="btn"
+                    ng-class="{'btn-primary': !started, 'btn-success': started}"
+                    ng-click="showWinner($index)">
+              <p>{{game.team}}</p><img ng-src="{{game.logo1}}" height="60px">
+            </button>
+            <h4>VS.</h4>
+            <button class="btn btn-primary">
+              <p>{{game.team2}}</p><img ng-src="{{game.logo2}}" height="60px">
+            </button>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6" style="background-color:white; margin-bottom: 5px;">
+          <h3>Game Information</h3>
+          <ul>
+            <li>Location: {{game.location}}</li>
+            <li>Date: {{game.date}}</li>
+            <li>Time: {{game.time}}</li>
+            <li>Weather: {{game.weather}}</li>
+          </ul>
+        </div>
+        <!-- <div class="col-xs-12 col-sm-6 col-md-2"></div> -->
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+    <script type="text/javascript" src="scripts/controllers/games.js"></script>
+
+  </body>
+</html>

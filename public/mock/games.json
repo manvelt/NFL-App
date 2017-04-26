@@ -1,0 +1,184 @@
+[
+	
+	{	
+		"gameNum" : "1", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/bal.png&amp;h=150&amp;w=150", 
+		"team" : "Buffalo Bills", 
+		"team2" : "Baltimore Ravens", 
+		"location" : "M&T Bank Stadium", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM",
+		"weather" : "http://api.openweathermap.org/data/2.5/weather?q=Baltimore&appid=15648ba5ae6dfdf81a9e5e087d16d0f7",
+		"division" : "AFCeast"
+	},
+
+	{	
+		"gameNum": "2", 
+		"logo1": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/car.png&amp;h=150&amp;w=150",
+		"logo2": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/den.png&amp;h=150&amp;w=150",
+		"team":"Carolina Panthers", 
+		"team2":"Denver Broncos", 
+		"location":"Sports Authority Field", 
+		"date":"09/08/16", 
+		"time":"8:30 PM"
+	},
+
+	{	
+		"gameNum": "3", 
+		"logo1": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/cin.png&amp;h=150&amp;w=150",
+		"logo2": "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/nyj.png&amp;h=150&amp;w=150",
+		"team":"Cincinnati Bengals", 
+		"team2":"New York Jets", 
+		"location":"MetLife Stadium", 
+		"date":"09/11/16", 
+		"time":"1:00 PM",
+		"division" : "AFCeast"
+	},
+
+	{	
+		"gameNum" : "4", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ne.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ari.png&amp;h=150&amp;w=150", 
+		"team" : "New England Patriots", 
+		"team2" : "Arizona Cardinals", 
+		"location" : "University of Phoenix Stadium", 
+		"date" : "09/11/16", 
+		"time" : "8:30 PM",
+		"division" : "AFCeast"
+	},
+
+	{	
+		"gameNum" : "5", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/mia.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/sea.png&amp;h=150&amp;w=150", 
+		"team" : "Miami Dolphins", 
+		"team2" : "Seattle Seahawks", 
+		"location" : "CenturyLink Field", 
+		"date" : "09/11/16", 
+		"time" : "4:05 PM",
+		"division" : "AFCeast"
+	},
+
+	{	
+		"gameNum" : "6", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/pit.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/was.png&amp;h=150&amp;w=150", 
+		"team" : "Pittsburgh Steelers", 
+		"team2" : "Washington Redskins", 
+		"location" : "FedEx Field", 
+		"date" : "09/12/16", 
+		"time" : "7:10 PM"
+	},
+
+	{	
+		"gameNum" : "7", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/cle.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/phi.png&amp;h=150&amp;w=150", 
+		"team" : "Cleveland Browns", 
+		"team2" : "Philadelphia Eagles", 
+		"location" : "Lincoln Financial Field", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM"
+	},
+
+	{	
+		"gameNum" : "8", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/min.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ten.png&amp;h=150&amp;w=150", 
+		"team" : "Minnesota Vikings", 
+		"team2" : "Tennessee Titans", 
+		"location" : "Nissan Stadium", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM"
+	},
+
+	{	
+		"gameNum" : "9", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/gb.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/jac.png&amp;h=150&amp;w=150", 
+		"team" : "Green Bay Packers", 
+		"team2" : "Jacksonville Jaguars", 
+		"location" : "EverBank Field", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM"
+	},
+
+	{	
+		"gameNum" : "10", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/chi.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/hou.png&amp;h=150&amp;w=150", 
+		"team" : "Chicago Bears", 
+		"team2" : "Houston Texans", 
+		"location" : "NRG Stadium", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM"
+	},
+
+	{	
+		"gameNum" : "11", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/det.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&amp;h=150&amp;w=150", 
+		"team" : "Detroit Lions", 
+		"team2" : "Indianapolis Colts", 
+		"location" : "Lucas Oil Stadium", 
+		"date" : "09/11/16", 
+		"time" : "4:25 PM"
+	},
+
+	{	
+		"gameNum" : "12", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/sd.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/kc.png&amp;h=150&amp;w=150", 
+		"team" : "San Diego Chargers", 
+		"team2" : "Kansas City Chiefs", 
+		"location" : "Arrowhead Stadium", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM"
+	},
+
+	{	
+		"gameNum" : "13", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/oak.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png&amp;h=150&amp;w=150", 
+		"team" : "Oakland Raiders", 
+		"team2" : "New Orlean Saints", 
+		"location" : "Mercedes-Benz Superdome", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM"
+	},
+
+	{	
+		"gameNum" : "14", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/nyg.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/dal.png&amp;h=150&amp;w=150", 
+		"team" : "New York Giants", 
+		"team2" : "Dallas Cowboys", 
+		"location" : "AT&T Stadium", 
+		"date" : "09/11/16", 
+		"time" : "4:25 PM"
+	},
+
+	{	
+		"gameNum" : "15", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/tam.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/atl.png&amp;h=150&amp;w=150", 
+		"team" : "Tampa Bay Buccaneers", 
+		"team2" : "Atlanta Falcons", 
+		"location" : "Georgia Dome", 
+		"date" : "09/11/16", 
+		"time" : "1:00 PM"
+	},
+
+	{	
+		"gameNum" : "16", 
+		"logo1" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/la.png&amp;h=150&amp;w=150", 
+		"logo2" : "http://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/sf.png&amp;h=150&amp;w=150", 
+		"team" : "Los Angeles Rams", 
+		"team2" : "San Francisco 49ers", 
+		"location" : "Levi's Stadium", 
+		"date" : "09/12/16", 
+		"time" : "10:20 PM"
+	}
+
+]
