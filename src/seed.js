@@ -1,3 +1,8 @@
+/* This javascript file should only be run when nothing is in the database.
+ * Once the user information is in the database, DO NOT include this file
+ * in app.js
+ */
+
 'use strict';
 
 var User = require('./models/users.js');
