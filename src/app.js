@@ -5,8 +5,10 @@ var parser = require('body-parser');
 var router = require("./api");
 var app = express();
 
+require('./database');
 // Read requirments on seed.js file
 // require('./seed');
+
 
 
 app.use('/', express.static('public'));
