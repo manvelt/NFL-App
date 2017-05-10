@@ -25,7 +25,7 @@
               <div class="box">
                 <h3>Welcome to the NFL Weekly Picker!</h3>
                 <h4>Please sign in below.</h4>
-                <form class="form-horizontal" ng-submit="login(username, password)">
+                <form class="form-horizontal">
                   <div class="form-group">
                     <label class="col-sm-2 control-label">Username</label>
                     <div class="col-sm-10">
@@ -57,7 +57,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="scripts/app.js"></script>
+    <!-- I believe we do not need these two javascript files, once user authentication
+         is successfully handled on the backend, I will permanently delete these scripts
     <script type="text/javascript" src="scripts/controllers/index.js"></script>
+    <script type="text/javascript" src="scripts/services/users.js"></script>
+  -->
 
   </body>
 </html>
